@@ -1,11 +1,7 @@
-@font-face{font-family:CamphorPro-Light;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Light.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
-@font-face{font-family:CamphorPro-Regular;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Regular.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
-@font-face{font-family:CamphorPro-Bold;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Bold.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
-*{
-	margin:0;
-	padding:0;
-	
-}
+@font-face{font-family:CamphorPro-Light;src:url(./fonts/CamphorPro-Light.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+@font-face{font-family:CamphorPro-Regular;src:url(./fonts/CamphorPro-Regular.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+@font-face{font-family:CamphorPro-Bold;src:url(./fonts/CamphorPro-Bold.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+
 .landing-page-frame{width:100%;max-width:100%;text-align:center}
 .landing-page-frame,.landing-page-frame *{font-size: 120px}
 .landing-page-content{width:100%;max-width:1920px;display:inline-block}
