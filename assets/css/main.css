@@ -1,0 +1,114 @@
+@font-face{font-family:CamphorPro-Light;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Light.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+@font-face{font-family:CamphorPro-Regular;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Regular.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+@font-face{font-family:CamphorPro-Bold;src:url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/css/fonts/camphor-pro/CamphorPro-Bold.woff) format("woff");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+
+.landing-page-frame{width:100%;max-width:100%;text-align:center}
+.landing-page-frame,.landing-page-frame *{font-size: 120px}
+.landing-page-content{width:100%;max-width:1920px;display:inline-block}
+.landing-page-content .bloco{position:relative;width:100%}
+.landing-page-content .bloco *{color:#353638}
+.landing-page-content .bloco br{font-size:0!important}
+.landing-page-content .bloco h1,.landing-page-content .bloco h2,.landing-page-content .bloco p,.landing-page-content .bloco span{font-family:CamphorPro-Light;text-align:center;margin:0;opacity:0;-webkit-transform:translateY(50px);-ms-transform:translateY(50px);transform:translateY(50px)}
+.landing-page-content .bloco .icons .icon{opacity:0;-webkit-transform:translateY(50px);-ms-transform:translateY(50px);transform:translateY(50px);box-sizing:content-box}
+.landing-page-content .bloco img,.landing-page-content .bloco .img{opacity:0}
+.landing-page-content .bloco.active h1,.landing-page-content .bloco.active h2,.landing-page-content .bloco.active p,.landing-page-content .bloco.active span,.landing-page-content .bloco.active img, .landing-page-content .bloco.active .img,.landing-page-content .bloco.active .icons .icon{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);transition:all 1s 0s}
+.landing-page-content .bloco h1{font-size:.7em;padding-bottom:.3em}
+.landing-page-content .bloco h1 b{font-family:CamphorPro-Bold;font-size:1em}
+.landing-page-content .bloco p{font-size:.4em}
+.landing-page-content .bloco h2.title{font-size:.4em;font-family:'CamphorPro-Bold';padding-bottom:.2em}
+.landing-page-content .bloco h2 > span{font-size:1em}
+.landing-page-content .bloco p.txt{width:35em;margin:0 auto;font-size:.3em}
+.landing-page-content .bloco.img-bg{background-repeat:no-repeat;background-size:16em}
+.landing-page-content .bloco.black{background-color:#000}
+.landing-page-content .bloco.black *{color:#fff}
+.landing-page-content .bloco1{height:11.44em;background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco1_bg.jpg')}
+.landing-page-content .bloco1 h1{position:absolute;top:3.5em;right:2.6em;font-size:.88em}
+.landing-page-content .bloco1 > p{margin-top:.4em;font-family:'CamphorPro-Bold';color:#6d5efb;position:absolute;right:4em;top:13.3em;font-size:.3em}
+.landing-page-content .bloco1 .icons{position:absolute;top:7.8em;left:1.5em;display:flex;justify-content:space-around;width:13em}
+.landing-page-content .bloco1 .icons .icon{width:2em;background-color:#fff;border-radius:.3em;padding:.2em}
+.landing-page-content .bloco1 .icons span{display:block;margin-top:1.2em;font-size:.2em;font-family:'CamphorPro-Bold'}
+.landing-page-content .bloco1 .icons img{height:1.4em;width:auto}
+.landing-page-content .bloco1 .icons .icon3 img{height:1.2em;padding-bottom:.2em}
+.landing-page-content .bloco1 .icons .icon4 img{height:1.3em;padding-bottom:.1em}
+.landing-page-content .bloco2{height:6.95em;background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco2_bg.jpg')}
+.landing-page-content .bloco3{background-color:#eef3f9}
+.landing-page-content .bloco3 img{width:11em;margin:.4em 0 1em 0}
+.landing-page-content .bloco4{height:20.8em;background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco4_bg.jpg');padding-top:.7em}
+.landing-page-content .bloco4 .title span{font-family:'CamphorPro-Bold';background:linear-gradient(to right,#00a6ff,#00f5f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.landing-page-content .bloco4 p.txt{width:37em}
+.landing-page-content .bloco4 .icons{display:flex;margin:4.7em auto 0 auto;width:11.2em;justify-content:space-between}
+.landing-page-content .bloco4 .icons img{width:.9em;height:auto;margin-bottom:-.1em}
+.landing-page-content .bloco4 .icons .icon span{display:block;font-family:'CamphorPro-Regular';font-size:.25em}
+.landing-page-content .bloco4 .icons .icon p{font-family:'CamphorPro-Regular'}
+.landing-page-content .bloco4 .subloco1{position:absolute;width:6.3em;text-align:left;right:.8em;top:9.9em}
+.landing-page-content .bloco4 .subloco1 .title,.landing-page-content .bloco4 .subloco2 .title{text-align:left}
+.landing-page-content .bloco4 .subloco1 .txt,.landing-page-content .bloco4 .subloco2 .txt{width:100%;text-align:left;font-size:.24em}
+.landing-page-content .bloco4 .subloco1 .compr{margin:.5em 0 .4em 0;line-height:.3em}
+.landing-page-content .bloco4 .subloco1 .compr .left{text-align:left;font-size:.24em;font-family:'CamphorPro-Bold';width:10em;margin-top:.6em;display:inline-block;vertical-align:top}
+.landing-page-content .bloco4 .subloco1 .compr .right{display:inline-block;vertical-align:top;width:2.6em;height:.11em;margin-top:.225em;background:linear-gradient(to right,#00a6ff,#00f5f7);border-radius:1em}
+.landing-page-content .bloco4 .subloco1 .compr .right2{width:3.25em}
+.landing-page-content .bloco4 .subloco1 span.nota{font-size:.2em;display:inline-block;text-align:left;vertical-align:top}
+.landing-page-content .bloco4 .subloco2{position:absolute;width:5.7em;top:15.6em;left:2em}
+.landing-page-content .bloco4 .subloco2 .subtitle{margin:3.8em 0 0 0;font-size:.3em;text-align:left;font-family:'CamphorPro-Bold';color:#3b93f1}
+.landing-page-content .bloco4 .subloco2 .txt4{color:#3b93f1}
+.landing-page-content .bloco5,.landing-page-content .bloco6,.landing-page-content .bloco7,.landing-page-content .bloco8,.landing-page-content .bloco9{padding-top:1em}
+.landing-page-content .bloco5 img,.landing-page-content .bloco6 img,.landing-page-content .bloco7 img,.landing-page-content .bloco8 img,.landing-page-content .bloco9 img{width:9.3em;margin-top:.2em}
+.landing-page-content .bloco9 img{width:11.2em}
+.landing-page-content .bloco10{height:6.93em}
+.landing-page-content .bloco10 .subloco{position:absolute;width:6em;top:2.8em;left:2.4em}
+.landing-page-content .bloco10 .title{text-align:left}
+.landing-page-content .bloco10 .txt{text-align:left;width:100%!important}
+.landing-page-content .bloco10 img{position:absolute;width:6.5em;right:1em;top:1em}
+.landing-page-content .bloco11{display:flex;justify-content:flex-end}
+.landing-page-content .bloco11 .coluna{background-size:cover;background-repeat:no-repeat;background-position:center;width:33.33%;height:8.1em;position:relative}
+.landing-page-content .bloco11 .coluna1{background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco11_bg1.jpg')}
+.landing-page-content .bloco11 .coluna2{background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco11_bg2.jpg')}
+.landing-page-content .bloco11 .coluna3{background-image:url('https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/redmi-9a/assets/media/bloco11_bg3.jpg')}
+.landing-page-content .bloco11 p{font-size:.3em;font-family:'CamphorPro-Bold';position:absolute;width:100%;bottom:1.7em}
+.landing-page-content .bloco12{height:2.85em}
+.landing-page-content .bloco12 p{position:absolute;font-family:'CamphorPro-Bold';font-size:.35em;top:3em;left:9.9em}
+.landing-page-content .bloco12 img{position:absolute;width:4em;right:4.5em}
+
+@media screen and (max-width:1919px){.landing-page-frame,.landing-page-frame *{font-size:6.2vw}}
+
+@media screen and (max-width:767px){
+	.landing-page-content .bloco.img-bg{background-position-x:center}
+	.landing-page-content .bloco1{height:35.4em;background-color:#eef3f7;background-size:25.2em!important;background-position:left top!important}
+	.landing-page-content .bloco h2.title{font-size:.75em}
+	.landing-page-content .bloco p.txt{width:30em;font-size:.5em}
+	.landing-page-content .bloco1 h1{top:7.8em;width:100%;left:0;font-size:2em}
+	.landing-page-content .bloco1 > p{width:100%;font-size:.75em;top:23.7em;left:0}
+	.landing-page-content .bloco1 .icons{width:100%;left:0;flex-wrap:wrap;top:20.5em;justify-content:center}
+	.landing-page-content .bloco1 .icons .icon{width:3.5em;margin:.4em;padding:.6em}
+	.landing-page-content .bloco1 .icons img{height:3em}
+	.landing-page-content .bloco1 .icons span{font-size:.5em}
+	.landing-page-content .bloco1 .icons .icon3 img{height:2.5em}
+	.landing-page-content .bloco1 .icons .icon4 img{height:2.6em}
+	.landing-page-content .bloco2{background-color:#eef3f7;height:14em;background-size:28em!important;background-position-y:2em}
+	.landing-page-content .bloco2 h2.title{padding-top:2em}
+	.landing-page-content .bloco3 img{width:14.6em}
+	.landing-page-content .bloco4{height:35em;background-size:cover!important}
+	.landing-page-content .bloco4 .icons{margin-top:7.2em;width:14em}
+	.landing-page-content .bloco4 .icons img{width:2.8em}
+	.landing-page-content .bloco4 .icons .icon span{font-size:.45em}
+	.landing-page-content .bloco4 .icons .icon p{font-size:.6em}
+	.landing-page-content .bloco4 .subloco1{top:15em;width:7.5em}
+	.landing-page-content .bloco4 .subloco1 .txt, .landing-page-content .bloco4 .subloco2 .txt{font-size:.47em}
+	.landing-page-content .bloco4 .subloco2{width:8.7em;left:1em;top:24.3em}
+	.landing-page-content .bloco4 .subloco2 .subtitle{font-size:.6em;margin-top:1.9em}
+	.landing-page-content .bloco4 .subloco1 .compr .left{font-size:.5em;line-height:1.2}
+	.landing-page-content .bloco4 .subloco1 .compr .right{width:5.5em;height:.3em;margin-top:0}
+	.landing-page-content .bloco4 .subloco1 .compr .right2{width:6.875em}
+	.landing-page-content .bloco4 .subloco1 span.nota{font-size:.35em}
+	.landing-page-content .bloco5 img,.landing-page-content .bloco6 img,.landing-page-content .bloco7 img,.landing-page-content .bloco8 img,.landing-page-content .bloco9 img{width:14em;margin-top:.5em}
+	.landing-page-content .bloco10{height:15.2em}
+	.landing-page-content .bloco10 .subloco{width:14em;left:1em}
+	.landing-page-content .bloco10 h2,.landing-page-content .bloco10 p{text-align:center!important}
+	.landing-page-content .bloco10 img{top:6.1em;width:10em;left:2.3em}
+	.landing-page-content .bloco11{flex-wrap:wrap;justify-content:center}
+	.landing-page-content .bloco11 .coluna{width:50%;height:12.3em}
+	.landing-page-content .bloco11 p{font-size:.5em}
+	.landing-page-content .bloco12{height:4.55em}
+	.landing-page-content .bloco12 p{font-size:.65em;top:2.9em;left:3em;width:9em;text-align:left}
+	.landing-page-content .bloco12 img{width:8em;right:1em}
+}
